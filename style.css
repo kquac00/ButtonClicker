@@ -1,0 +1,131 @@
+.main {
+    
+    
+    background-color: white;
+    
+}
+/* ---------------Navigation bar--------------*/
+.navbar {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: flex-center;
+    padding: 20px;
+    width: 800px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
+}
+.title {
+    margin-left: 20px;
+    flex: 1;
+    font-size: 30px;
+}
+.search {
+    margin-right: 150px;
+    border: 3px solid black;
+}
+.input {
+    height: 30px;
+    width: 350px;
+}
+.log {
+    border: 3px solid black;
+    padding: 5px;
+    margin-right: 40px;
+    background-color: blue;
+    color: white;
+}
+/* ---------------top left contain---------------*/
+.leftmain {
+    display: flex;
+    
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 250px;
+    width: 500px;
+}
+/* ----------------------left panel---------------*/
+.leftpaneltop {
+    
+    display: flex;
+    flex-direction:column;
+    
+    
+    width: 200px;
+    height: 250px;
+}
+.word { 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+    
+    
+}
+#align {
+    margin-left: 20px;
+    margin: 0px;
+}
+.likes {
+    border: 3px solid black;
+    background-color: orange;
+    width: 80px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 5px 5px;
+    padding: 10px;
+    
+}
+.likesBGcolor {
+    border: none;
+    background-color: orange;
+    font-size: 15px;
+}
+.definition {
+    
+    
+    padding: 40px;
+    height: 100px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.link1 {
+    color: blue;
+}
+/* --------------------right panel-----------------------*/
+.rightpanel {
+    border: 3px solid black;
+    margin-top: -530px;
+    margin-left: 585px;
+    width: 300px;
+    height: 200px;
+}
+.sidenote {
+    
+    background-color: white;
+    margin-left: 20px;
+    
+}
+.adddefinition {
+    background-color:lightgreen ;
+    border: 3px solid black;
+    
+    height: 30px;
+    width: 140px;
+    margin-left: 60px;
+    margin-top: 30px;
+    box-shadow: 5px 5px;
+}
+.fontdef {
+    background-color:lightgreen ;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: none;
+}

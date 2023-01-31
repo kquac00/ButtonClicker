@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="title">Dojonary
+
+            </div>
+            <div class="search">
+                <input class="input" type="text" placeholder="Search">
+            </div>
+            <div>
+            <button class="log" onclick="clicked(this)">Login</button>
+
+            </div>
+        </div>
+        <div class="leftmain">
+            <div class="leftpaneltop">
+                <div class="word">
+                    <h1>Ninja</h1>
+                    <h2 id="align">noun</h2>
+                    <h3>Plural: ninjas</h3>
+                </div>
+                <div class="likes">
+                    <button class="likesBGcolor" onclick="likedText(this)"> 13 Likes </button>
+                </div>
+            </div>
+            <div class="definition">
+                <p>A practitioner skilled in the</p>
+                <p><a class="link1" href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> art of <a
+                        class="link1" href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="leftmain">
+            <div class="leftpaneltop">
+                <div class="word">
+                    <h1>Ninja</h1>
+                    <h2 id="align">noun</h2>
+                    <h3>Plural: ninjas</h3>
+                </div>
+                <div class="likes">
+                    <button class="likesBGcolor" onclick="likedText(this)"> 37 Likes </button>
+                </div>
+            </div>
+            <div class="definition">
+                <p>A <a class="link1" href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks</p>
+                <p>down problems with <a class="link1" href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus</p>
+            </div>
+
+
+            
+        </div>
+        <div class="rightpanel">
+            <div class="sidenote">
+            <h2>Dojonary is</h2>
+            <h2>defined by YOU</h2>
+            
+            </div>
+            <div class="adddefinition">
+                <button class="fontdef" onclick="removeText(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
